@@ -218,9 +218,3 @@ My YrkesCo database model achieves 3NF because:
 1. **1NF:** All tables have atomic values, primary keys, no repeating groups, and uniform data types
 2. **2NF:** No partial dependencies - all non-key attributes depend on entire primary keys
 3. **3NF:** No transitive dependencies - all non-key attributes depend directly on primary keys
-
-**Benefits:**
-
-- No insertion anomalies (can add educators without courses)
-- No update anomalies (update company name once in COMPANY table)
-- No deletion anomalies (delete course without losing educator data)

@@ -192,7 +192,7 @@ UNIQUE (program_id, cohort_number)
 
 ---
 
-## 🔗 Junction Tables
+## Junction Tables
 
 ### 12. PROGRAM_COURSE
 
@@ -258,8 +258,9 @@ course_id: ✅ PK + FK
 class_id: ✅ PK + FK
 
 
-📊 Complete ERD with Keys
-mermaiderDiagram
+Complete ERD with Keys
+
+
     STUDENT ||--|| SENSITIVE_DATA : "student_id"
     STUDENT }o--|| CLASS : "class_id"
     STUDENT ||--o{ STUDENT_COURSE : "student_id PK,FK"

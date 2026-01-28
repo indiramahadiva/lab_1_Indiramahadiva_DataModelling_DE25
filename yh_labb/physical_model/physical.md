@@ -116,6 +116,7 @@ docker exec -it postgres bash  # Access container
 
 ```bash
 psql -U postgres -d yrkco_db   # Connect to database
+\i queries.sql                 # Run the queries
 \dt                            # List tables
 \d table_name                  # Describe table
 \q                             # Quit psql
